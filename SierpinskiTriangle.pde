@@ -26,9 +26,9 @@ if(len<=baseCase){
  triangle(x1,y1,x2,y2,x3,y3);
  }
  else{
-  int halfLen = len/2; 
-  sierpinski(x,y,halfLen);
-  sierpinski(x + halfLen, y, halfLen);
-  sierpinski(x + halfLen/2, y - halfLen/2, halfLen);
+  int halfLength = len/2; 
+  sierpinski(x,y,halfLength);
+  sierpinski(x + halfLength, y, halfLength);
+  sierpinski(x + halfLength/2, y - halfLength/2, halfLength);
  }
 }

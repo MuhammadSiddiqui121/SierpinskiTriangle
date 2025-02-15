@@ -1,5 +1,5 @@
-int baseCase = 20;
-int max = 400;
+int baseCase = 30;
+int max = 500;
 
 public void setup()
 {
@@ -11,11 +11,6 @@ public void draw()
 {
 background(255);
 sierpinski(100, 500, max);
-}
-public void mouseDragged()//optional
-{
-  baseCase = max(5,mouseX/2);
-  redraw();
 }
 public void sierpinski(int x, int y, int len) 
 {
